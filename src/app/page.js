@@ -1,4 +1,5 @@
 import { BsTelephone } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -50,7 +51,7 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className="text-center m-10 lg:flex justify-center">
+        <div className="text-center m-10">
           <div className="bg-black text-white p-8 m-8 rounded-xl">
             <a href="tel:7656069506">
               <div className="flex justify-center text-2xl pb-3">
@@ -60,8 +61,14 @@ export default function Home() {
             </a>
           </div>
           <div className="bg-blue-900 text-white p-10 m-10 rounded-xl">
-            <p>bucksrubbish@gmail.com</p>
-            <p>Email Us</p>
+            <div className="flex justify-center text-2xl pb-3">
+              <a href="mailto:bucksrubbish@gmail.com">
+                <div className="flex justify-center text-3xl pb-3">
+                  <AiOutlineMail />
+                </div>
+                <p className="text-2xl">bucksrubbish@gmail.com</p>
+              </a>
+            </div>
           </div>
         </div>
       </section>
