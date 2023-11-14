@@ -15,7 +15,7 @@ export default function Home() {
           <div className="text-center m-3 p-4">
             <h2 className="p-3 text-7xl text-white font-Title">Buck Truck</h2>
             <a href="tel:7656069506">
-              <p className=" bg-white text-main-blue rounded-xl p-3 mb-7 text-xs hover:bg-gray-400 hover:text-white font-bold ">
+              <p className=" bg-white text-main-blue rounded-xl p-3 mb-7 text-xs hover:bg-gray-100 hover:text-black font-bold ">
                 CALL NOW (765)-748-1730
               </p>
             </a>
@@ -117,25 +117,28 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-main-blue flex p-2 ">
-        <div className="text-center grid grid-cols-2  ">
-          <div className=" text-white pt-4  pl-5 rounded-xl w-full pr-10 hover:text-black">
+      <section className="bg-main-blue p-2">
+        <div className="flex justify-center gap-10">
+          <div className=" text-white pt-4 rounded-xl hover:text-black">
             <a href="tel:7656069506">
               <div className=" text-3xl pb-3">
                 <BsTelephone />
               </div>
             </a>
           </div>
-          <div className="pt-4 rounded-xl w-1/4">
-            <div className=" text-white pb-3 hover:text-black">
-              <a href="mailto:bucksrubbish@gmail.com">
-                <div className=" text-3xl pb-3">
-                  <AiOutlineMail />
-                </div>
-              </a>
-            </div>
+          <div className=" text-white hover:text-black">
+            <a href="mailto:bucksrubbish@gmail.com">
+              <div className=" pt-4 text-3xl">
+                <AiOutlineMail />
+              </div>
+            </a>
           </div>
         </div>
+      </section>
+      <section className="bg-main-blue">
+        <h2 className=" flex justify-center p-3 text-5xl pb-10 text-white font-Title">
+          Buck Truck
+        </h2>
       </section>
     </main>
   );
