@@ -1,5 +1,7 @@
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import Image from "next/image";
+import dumpster from "public/dumpster.jpg";
 
 export default function Home() {
   return (
@@ -20,24 +22,49 @@ export default function Home() {
         </header>
       </section>
       <section>
-        <div className="lg:grid grid-cols-3 lg:gap-6 p-8">
-          <div className="text-center p-10 my-10 shadow-2xl shadow-blue-500/50 rounded-xl">
-            <h3 className="text-2xl text-blue-900 pb-8">About Us</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-              repellat iusto animi sequi itaque. Suscipit, possimus hic labore
-              provident dolores voluptatem quod sint repudiandae aspernatur
-              quisquam, modi veritatis, totam dolore!
-            </p>
+        <div className=" lg:gap-6 p-8">
+          <div className=" text-center p-10 my-10 shadow-2xl shadow-blue-500/50 rounded-xl sm:grid md:flex">
+            <div className="">
+              <h3 className="text-2xl text-blue-900 pb-8">About Us</h3>
+              <p className=" pb-6 md:px-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                repellat iusto animi sequi itaque. Suscipit, possimus hic labore
+                provident dolores voluptatem quod sint repudiandae aspernatur
+                quisquam, modi veritatis, totam dolore! Lorem ipsum dolor, sit
+                amet consectetur adipisicing elit. Sequi repudiandae id
+                temporibus doloremque sed perspiciatis deleniti molestiae rerum
+                dolorem tempora quasi quibusdam, aspernatur tempore optio!
+                Perferendis aperiam repellendus iure optio.
+              </p>
+            </div>
+            <div>
+              <Image src={dumpster} width={2500} alt="dumpster" className="" />
+            </div>
           </div>
           <div className="text-center p-10 my-10 shadow-2xl shadow-blue-500/50 rounded-xl">
             <h3 className="text-2xl text-blue-900 pb-8">Services</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis libero cumque sapiente optio provident. Nulla tenetur
-              iste, temporibus illo impedit maxime obcaecati eum? Atque labore
-              rem repellendus minus ex praesentium?
-            </p>
+            <div className="gap-6 lg:grid grid-cols-2 p-10">
+              <div className="shadow-2xl rounded-xl shadow-blue-500/50 w-100 p-10 mb-10">
+                <h4 className="text-2xl">6 yards</h4>
+                <p>use thus</p>
+                <p>do tht</p>
+              </div>
+              <div className="shadow-2xl rounded-xl shadow-blue-500/50 w-100 p-10 mb-10">
+                <h4 className="text-2xl">10 yards</h4>
+                <p>use thus</p>
+                <p>do tht</p>
+              </div>
+              <div className="shadow-2xl rounded-xl shadow-blue-500/50 w-100 p-10 mb-10">
+                <h4 className="text-2xl">20 yards</h4>
+                <p>use thus</p>
+                <p>do tht</p>
+              </div>
+              <div className="shadow-2xl rounded-xl shadow-blue-500/50 w-100 p-10 mb-10">
+                <h4 className="text-2xl">30 yards</h4>
+                <p>use thus</p>
+                <p>do tht</p>
+              </div>
+            </div>
           </div>
           <div className="text-center p-10 my-10 shadow-2xl shadow-blue-500/50 rounded-xl">
             <h3 className="text-2xl text-blue-900 pb-8">Something</h3>
