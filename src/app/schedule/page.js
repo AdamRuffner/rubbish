@@ -78,7 +78,7 @@ const Schedule = () => {
           <br />
 
           <button
-            className=" ml-20 shadow-lg shadow-gray-500 rounded-xl p-2  hover:bg-main-blue hover:text-white"
+            className=" ml-20 shadow-lg shadow-gray-500 rounded-xl p-2 bg-main-blue text-white hover:bg-white hover:text-main-blue"
             type="submit"
           >
             Submit
