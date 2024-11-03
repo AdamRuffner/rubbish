@@ -1,8 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
+"use client";
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import Image from "next/image";
 import dumpster from "public/dumpster.jpg";
+import Link from "next/link";
+// import Schedule from "@/app/schedule";
 
 export default function Home() {
   return (
@@ -18,6 +21,11 @@ export default function Home() {
               <p className=" bg-white text-main-blue rounded-xl p-3 mb-7 text-xs hover:bg-gray-100 hover:text-black font-bold ">
                 CALL NOW (765)-748-1730
               </p>
+              <Link href="/schedule">
+                <button className=" bg-white text-main-blue rounded-xl p-3 mb-7 text-xs hover:bg-gray-100 hover:text-black font-bold ">
+                  SCHEDULE ONLINE
+                </button>
+              </Link>
             </a>
           </div>
         </header>
@@ -129,6 +137,11 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-main-blue p-2">
+        <Link href="/schedule" className="flex justify-center pt-5">
+          <button className=" bg-white text-main-blue rounded-xl p-3 mb-7 text-xs hover:bg-gray-100 hover:text-black font-bold ">
+            SCHEDULE ONLINE
+          </button>
+        </Link>
         <div className="flex justify-center gap-10">
           <div className=" text-white pt-4 rounded-xl hover:text-black">
             <a href="tel:7657481730">
