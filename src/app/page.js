@@ -5,7 +5,6 @@ import { AiOutlineMail } from "react-icons/ai";
 import Image from "next/image";
 import dumpster from "public/dumpster.jpg";
 import Link from "next/link";
-// import Schedule from "@/app/schedule";
 
 export default function Home() {
   return (
@@ -23,11 +22,6 @@ export default function Home() {
               <p className=" bg-white text-main-blue rounded-xl p-3 mb-7 text-xs hover:bg-gray-100 hover:text-black font-bold ">
                 CALL NOW (765)-748-1730
               </p>
-              {/* <Link href="/schedule">
-                <button className=" bg-white text-main-blue rounded-xl p-3 mb-7 text-xs hover:bg-gray-100 hover:text-black font-bold ">
-                  SCHEDULE ONLINE
-                </button>
-              </Link> */}
             </a>
           </div>
         </header>
