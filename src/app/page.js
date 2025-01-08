@@ -16,7 +16,9 @@ export default function Home() {
             <p className="text-white">Open Mon - Sun | 8am - 8pm</p>
           </div>
           <div className="text-center m-3 p-4">
-            <h2 className="p-3 text-7xl text-white font-Title">Buck Truck</h2>
+            <h2 className="p-3 text-7xl text-white font-Title">
+              Buck's Dumpster Services
+            </h2>
             <a href="tel:7657481730">
               <p className=" bg-white text-main-blue rounded-xl p-3 mb-7 text-xs hover:bg-gray-100 hover:text-black font-bold ">
                 CALL NOW (765)-748-1730
@@ -38,17 +40,17 @@ export default function Home() {
                 About Us
               </h3>
               <p className=" pb-6 md:px-6 lg:pt-1">
-                Buck Truck is a premier dumpster rental company that has been
-                around for three generations. We have grown and evolved under
-                the leadership of successive generations, each contributing
-                valuable insights and innovation to the business. Our three
-                generation legacy is a testament to our enduring values,
-                adaptability, and the trust we've earned from our clients over
-                the years. We understand the importance of efficient waste
-                management for both residential and commercial projects. Our
-                services ensure a seamless and hassle-free experience, with
-                state of the art vehicles and a range of dumpster sizes, we
-                provide solutions for projects of any scale.
+                Buck's Dumpster Services is a premier dumpster rental company
+                that has been around for three generations. We have grown and
+                evolved under the leadership of successive generations, each
+                contributing valuable insights and innovation to the business.
+                Our three generation legacy is a testament to our enduring
+                values, adaptability, and the trust we've earned from our
+                clients over the years. We understand the importance of
+                efficient waste management for both residential and commercial
+                projects. Our services ensure a seamless and hassle-free
+                experience, with state of the art vehicles and a range of
+                dumpster sizes, we provide solutions for projects of any scale.
               </p>
             </div>
             <div>
@@ -74,7 +76,7 @@ export default function Home() {
                 <p className="pb-2">Office or Retail Space Cleanup</p>
                 <p className="pb-2">Apartment Complex Cleanouts</p>
                 <p className="font-Title text-main-blue text-xl">
-                  Starting at $250
+                  Starting at $220
                 </p>
               </div>
               <div className="shadow-2xl rounded-xl shadow-gray-500 w-100 p-10 mb-10">
@@ -87,11 +89,11 @@ export default function Home() {
                 <div>
                   <Image src={dumpster} alt="dumpster" className="pb-5" />
                 </div>
-                <p className="pb-2">Landscaping Projects</p>
+                <p className="pb-2">Small home cleanouts</p>
                 <p className="pb-2">Community Events</p>
                 <p className="pb-2">Home Renovation Debris</p>
                 <p className="font-Title text-main-blue text-xl">
-                  Starting at $350
+                  Starting at $300
                 </p>
               </div>
               <div className="shadow-2xl rounded-xl shadow-gray-500 w-100 p-10 mb-10">
@@ -105,10 +107,10 @@ export default function Home() {
                   <Image src={dumpster} alt="dumpster" className="pb-5" />
                 </div>
                 <p className="pb-2"> Home Renovation or Remodeling</p>
-                <p className="pb-2"> Large Roofing Projects</p>
-                <p className="pb-2"> Home or Building Demolition</p>
+                <p className="pb-2"> Junk Removal</p>
+                <p className="pb-2"> Large home clean outs</p>
                 <p className="font-Title text-main-blue text-xl pb-2">
-                  Starting at $450
+                  Starting at $400
                 </p>
                 <p className="text-main-blue font-Title text-lg">
                   MOST POPULAR
@@ -125,11 +127,10 @@ export default function Home() {
                   <Image src={dumpster} alt="dumpster" className="pb-5" />
                 </div>
                 <p className="pb-2">Commercial Projects</p>
-                <p className="pb-2">Industrial Cleanup</p>
                 <p className="pb-2">School or University Cleanouts</p>
                 <p className="pb-2">Junk Removal</p>
                 <p className="font-Title text-main-blue text-xl">
-                  Starting at $550
+                  Starting at $500
                 </p>
               </div>
             </div>
